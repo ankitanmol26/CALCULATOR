@@ -16,8 +16,8 @@ body{
     background-color:rgb(5, 49, 49)
 }
 .calculator{
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
     border: 2px solid black;
     padding: 20px;
     border-radius: 10px; 
@@ -41,4 +41,31 @@ input{
     box-shadow: inset 0px 3px 5px rgba(0, 0, 0, 0.2);
     color: white;
     cursor: pointer;
+}
+
+button{
+    border:none;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.5);
+    cursor : pointer;
+}
+
+.equals{
+    
+    border-radius: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 24px;
+    box-shadow: -8px -8px 15px rgba(255, 0, 0, 0.5);
+}
+
+.operator{
+    background-color: rgb(32, 23, 7);
+    box-shadow: -8px -8px 15px rgba(99, 80, 48, 0.5);
 }
